@@ -56,8 +56,9 @@ export const GlobalStyles = createGlobalStyle`
 
     /*!사용법! {color: var(--primary-color)}*/
 }
-
-@font-face {
+// 네트워크 탭에서 여러번 다운로드 되는 것 확인
+// index.css로 폰트 옮김 - 해당 에러 해결
+/* @font-face {
     font-family: 'BM-JUA';
     src: url('/fonts/BMJUA.woff2') format('woff2');
     font-weight: 300;
@@ -79,7 +80,7 @@ export const GlobalStyles = createGlobalStyle`
     font-style: normal;
     font-display: fallback;
     fallback: sans-serif;
-}
+} */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

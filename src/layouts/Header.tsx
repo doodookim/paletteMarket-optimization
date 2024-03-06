@@ -1,4 +1,4 @@
-import { MouseEvent, SetStateAction, useEffect, useState } from 'react';
+import { MouseEvent, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { supabase } from '../api/supabase/supabaseClient';
 import SearchBar from '../components/layout/header/SearchBar';
@@ -13,7 +13,6 @@ import {
   filterPrevNoti
 } from '../components/sideBar/SideBarFn';
 import NotiRender from '../components/sideBar/noti/NotiRender';
-import { useQueryClient, useMutation, QueryClient } from 'react-query';
 
 interface User {
   username: string;
@@ -29,7 +28,6 @@ const Header = ({
   const [avatarUrl, setAvatarUrl] = useState<string>();
   const { isLogin } = useAppSelector((state) => state.auth);
   const dispatch = useAppDispatch();
-  const queryClient = useQueryClient();
 
   // 알림 관련
   const [showNoti, setShowNoti] = useState<boolean>(false);
