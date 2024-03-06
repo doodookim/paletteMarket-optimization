@@ -1,10 +1,13 @@
-import { AiFillAlert } from 'react-icons/ai';
-import { BsThreeDots } from 'react-icons/bs';
-import { GoChevronLeft } from 'react-icons/go';
-import { GrDocumentExcel, GrDocumentPdf } from 'react-icons/gr';
-import { IoTrashOutline } from 'react-icons/io5';
-import { LiaFileSolid } from 'react-icons/lia';
-import { RiBallPenLine, RiFileHwpLine } from 'react-icons/ri';
+import { AiFillAlert } from '@react-icons/all-files/ai/AiFillAlert';
+import { BsThreeDots } from '@react-icons/all-files/bs/BsThreeDots';
+import { GoChevronLeft } from '@react-icons/all-files/go/GoChevronLeft';
+import { GrDocumentExcel } from '@react-icons/all-files/gr/GrDocumentExcel';
+import { GrDocumentPdf } from '@react-icons/all-files/gr/GrDocumentPdf';
+import { IoTrashOutline } from '@react-icons/all-files/io5/IoTrashOutline';
+import { AiFillEdit } from '@react-icons/all-files/ai/AiFillEdit';
+import { RiBallPenLine } from '@react-icons/all-files/ri/RiBallPenLine';
+import { RiFileHwpLine } from '@react-icons/all-files/ri/RiFileHwpLine';
+
 import styled from 'styled-components';
 import { StFadeAni } from '../../pages/productsDetail/style';
 export const HwpIcon = styled(RiFileHwpLine)`
@@ -20,7 +23,7 @@ export const ExcelIcon = styled(GrDocumentExcel)`
   font-size: 2.2rem;
   color: green;
 `;
-export const DefaultIcon = styled(LiaFileSolid)`
+export const DefaultIcon = styled(AiFillEdit)`
   font-size: 2rem;
   color: var(--1-gray);
 `;

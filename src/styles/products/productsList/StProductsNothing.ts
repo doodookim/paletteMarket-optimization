@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FaExclamation } from "react-icons/fa6";
+import { FaExclamation } from '@react-icons/all-files/fa/FaExclamation';
 
 export const NothingContainer = styled.div`
   width: 100%;
@@ -53,11 +53,10 @@ export const NothingIcon = styled.div`
   @media screen and (max-width: 768px) {
     width: 3.6rem;
     height: 3.6rem;
-    }
-`
+  }
+`;
 export const ExclamationMark = styled(FaExclamation)`
   width: 65%;
   height: 65%;
   color: var(--opc-100);
-  
-`
+`;

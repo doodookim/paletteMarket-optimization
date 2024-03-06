@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import { IoChevronDownOutline } from 'react-icons/io5';
+import { IoChevronDownOutline } from '@react-icons/all-files/io5/IoChevronDownOutline';
 interface DropdownProps {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;

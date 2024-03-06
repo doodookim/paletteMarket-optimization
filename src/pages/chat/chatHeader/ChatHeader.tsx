@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import * as St from '../style';
 import { SupabaseAPI } from '../supabaseChat/supabase_chat';
 import { Participants } from '../../../components/chat/types';
-import { BsThreeDots } from 'react-icons/bs';
+import { BsThreeDots } from '@react-icons/all-files/bs/BsThreeDots';
 import { supabase } from '../../../api/supabase/supabaseClient';
 import { ChatHeaderPropsType } from './ChatHeaderType';
 import { checkDevice } from '../../../components/chat/chatRoom/CheckDvice';

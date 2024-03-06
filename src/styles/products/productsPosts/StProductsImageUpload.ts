@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CgCloseO } from 'react-icons/cg';
+import { CgCloseO } from '@react-icons/all-files/cg/CgCloseO';
 
 export const UpLoadImageContainer = styled.div`
   display: flex;
@@ -72,7 +72,8 @@ export const ImageOrder = styled.div<Props>`
   width: 4.9rem;
   height: 1.9rem;
   border-radius: 0.4rem;
-  background-color: ${props => props.$idx === 0 ? 'var(--opc-100)' : 'var(--gray)'};
+  background-color: ${(props) =>
+    props.$idx === 0 ? 'var(--opc-100)' : 'var(--gray)'};
   color: var(--white);
   text-align: center;
   line-height: 2;

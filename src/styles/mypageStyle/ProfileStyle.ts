@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { MdAddAPhoto } from 'react-icons/md';
-import { IoMdSettings } from 'react-icons/io';
+import { MdAddAPhoto } from '@react-icons/all-files/md/MdAddAPhoto';
+import { IoMdSettings } from '@react-icons/all-files/io/IoMdSettings';
 
 export const StProfileContainer = styled.div`
   width: 77.5%;

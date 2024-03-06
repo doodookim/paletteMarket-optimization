@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Product } from '../../../../pages/productsDetail/types';
-import { GoInfo } from 'react-icons/go';
+import { GoInfo } from '@react-icons/all-files/go/GoInfo';
 import {
   StMapButton,
   StQualityInfo,

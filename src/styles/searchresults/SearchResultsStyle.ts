@@ -1,4 +1,4 @@
-import { FaCheckSquare } from 'react-icons/fa';
+import { FaCheckSquare } from '@react-icons/all-files/fa/FaCheckSquare';
 import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 

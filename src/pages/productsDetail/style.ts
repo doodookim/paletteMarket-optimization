@@ -1,5 +1,5 @@
-import { FaHeart } from 'react-icons/fa';
-import { AiFillAlert } from 'react-icons/ai';
+import { FaHeart } from '@react-icons/all-files/fa/FaHeart';
+import { AiFillAlert } from '@react-icons/all-files/ai/AiFillAlert';
 import styled, { css, keyframes } from 'styled-components';
 
 export const StFadeAni = keyframes`

@@ -1,5 +1,5 @@
 import React, { MouseEvent } from 'react';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight';
 import ProductsCard from '../../../prducts/ProductsCard';
 import { Product } from '../../../../pages/productsDetail/types';
 import { useNavigate, useParams } from 'react-router';

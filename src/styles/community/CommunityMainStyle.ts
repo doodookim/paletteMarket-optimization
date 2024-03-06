@@ -1,5 +1,5 @@
-import { BiEdit } from 'react-icons/bi';
-import { IoIosArrowDown } from 'react-icons/io';
+import { BiEdit } from '@react-icons/all-files/bi/BiEdit';
+import { IoIosArrowDown } from '@react-icons/all-files/io/IoIosArrowDown';
 import styled, { css } from 'styled-components';
 import { StFadeAni } from '../../pages/productsDetail/style';
 

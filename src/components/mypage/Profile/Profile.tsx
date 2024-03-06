@@ -27,7 +27,7 @@ import { useNavigate } from 'react-router';
 import ProfileMobileNav from './ProfileMobileNav';
 import QnAFrom from './QnAFrom';
 import { setIsOpenForm } from '../../../redux/modules/openForm';
-
+import FileResizer from 'react-image-file-resizer';
 interface User {
   username: string;
 }
@@ -148,9 +148,24 @@ const Profile = () => {
   const uploadProfileImage = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
       let file = e.target.files[0];
+      // 사진 resize 해주는 함수
+      const resizeFile = (file: File) =>
+        new Promise((res) => {
+          FileResizer.imageFileResizer(
+            file,
+            1500,
+            1500,
+            'WEBP',
+            20,
+            0,
+            (uri) => res(uri),
+            'file'
+          );
+        });
+      const resize = await resizeFile(file);
       const { data, error } = await supabase.storage
         .from('profiles')
-        .upload(userId + '/' + uuidv4(), file, {
+        .upload(userId + '/' + uuidv4(), resize as File, {
           upsert: true
         });
 

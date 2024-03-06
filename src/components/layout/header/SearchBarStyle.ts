@@ -1,4 +1,4 @@
-import { FaMagnifyingGlass } from 'react-icons/fa6';
+import { IoMdSearch } from '@react-icons/all-files/io/IoMdSearch';
 import styled, { css } from 'styled-components';
 
 type MobileProps = {
@@ -110,7 +110,7 @@ const ClearInputButton = styled.div`
     cursor: pointer;
   }
 `;
-const StMagnifyGlass = styled(FaMagnifyingGlass)`
+const SIoMdSearch = styled(IoMdSearch)`
   position: absolute;
   top: 32%;
   right: 55%;
@@ -138,7 +138,7 @@ const SearchBtn = styled.button`
   }
 `;
 
-const SearchIcon = styled(FaMagnifyingGlass)`
+const SearchIcon = styled(IoMdSearch)`
   width: 2.3rem;
   height: 2.3rem;
   @media screen and (max-width: 768px) {
@@ -150,7 +150,7 @@ export {
   SearchInputContainer,
   SearchInputBar,
   ClearInputButton,
-  StMagnifyGlass,
+  SIoMdSearch,
   SearchBtn,
   SearchIcon
 };

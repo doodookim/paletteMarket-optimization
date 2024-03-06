@@ -59,14 +59,14 @@ export const GlobalStyles = createGlobalStyle`
 
 @font-face {
     font-family: 'BM-JUA';
-    src: url('/fonts/BMJUA.woff') format('woff');
+    src: url('/fonts/BMJUA.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DalseoHealing-Medium';
-    src: url('/fonts/DalseoHealingMedium.woff') format('woff');
+    src: url('/fonts/DalseoHealingMedium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: fallback;
@@ -74,7 +74,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 @font-face {
     font-family: 'DalseoHealing-Bold';
-    src: url('/fonts/DalseoHealingBold.woff') format('woff');
+    src: url('/fonts/DalseoHealingBold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: fallback;

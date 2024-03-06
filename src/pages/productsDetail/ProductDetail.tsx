@@ -35,10 +35,11 @@ import {
   handleSellComplete,
   isExistsRoom
 } from '../../components/productDetail/ProductDetailFn';
-import { TbCircleNumber1 } from 'react-icons/tb';
-import { HiSparkles } from 'react-icons/hi2';
-import { FaLocationDot, FaTruckFast } from 'react-icons/fa6';
-import { RiExchangeFill } from 'react-icons/ri';
+import { IoIosAdd } from '@react-icons/all-files/io/IoIosAdd';
+import { HiSparkles } from '@react-icons/all-files/hi/HiSparkles';
+import { FaLocationArrow } from '@react-icons/all-files/fa/FaLocationArrow';
+import { FaTruck } from '@react-icons/all-files/fa/FaTruck';
+import { RiExchangeFill } from '@react-icons/all-files/ri/RiExchangeFill';
 import ImageViewer from '../../components/productDetail/ImageViewer';
 import Recommend from '../../components/productDetail/chatList/detailBody/Recommend';
 import QnAFrom from '../../components/mypage/Profile/QnAFrom';
@@ -186,7 +187,7 @@ const ProductDetail = () => {
   const labels = [
     {
       tag: '수량',
-      icon: <TbCircleNumber1 />
+      icon: <IoIosAdd />
     },
     {
       tag: '상태',
@@ -194,11 +195,11 @@ const ProductDetail = () => {
     },
     {
       tag: '거래 방식',
-      icon: <FaTruckFast />
+      icon: <FaLocationArrow />
     },
     {
       tag: '직거래 장소',
-      icon: <FaLocationDot />
+      icon: <FaTruck />
     },
     {
       tag: '교환',

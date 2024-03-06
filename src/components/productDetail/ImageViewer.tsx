@@ -1,7 +1,7 @@
 import React, { SetStateAction } from 'react';
 import { Product } from '../../pages/productsDetail/types';
 import DetailViewerCarousel from './detailCarousel/DetailCarousel';
-import { IoIosClose } from 'react-icons/io';
+import { IoIosClose } from '@react-icons/all-files/io/IoIosClose';
 import { StCloseViewerBtn, StViewer } from './ProductDetailStyles';
 
 type ViewerProps = {

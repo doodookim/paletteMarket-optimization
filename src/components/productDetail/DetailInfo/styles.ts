@@ -1,5 +1,5 @@
-import { FaTrash } from 'react-icons/fa';
-import { FaPencil } from 'react-icons/fa6';
+import { FaTrash } from '@react-icons/all-files/fa/FaTrash';
+import { FaPencilAlt } from '@react-icons/all-files/fa/FaPencilAlt';
 import styled from 'styled-components';
 
 const StUserInfoWrapper = styled.div`
@@ -15,7 +15,7 @@ const StEditBtnBox = styled.div`
   cursor: pointer;
 `;
 
-const StPencilIcon = styled(FaPencil)`
+const StPencilIcon = styled(FaPencilAlt)`
   color: var(--opc-100);
 `;
 

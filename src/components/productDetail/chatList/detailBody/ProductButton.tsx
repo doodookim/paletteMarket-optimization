@@ -1,7 +1,7 @@
 import React from 'react';
 import * as St from '../../../../pages/productsDetail/style';
 import { useNavigate } from 'react-router';
-import { FaHeart } from 'react-icons/fa';
+import { FaHeart } from '@react-icons/all-files/fa/FaHeart';
 import { ButtonProps } from '../ChatListTypes';
 
 const ProductButton = ({

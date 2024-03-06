@@ -1,6 +1,6 @@
-import { GoChevronLeft } from 'react-icons/go';
-import { GrDocumentPdf } from 'react-icons/gr';
-import { RiFileHwpLine } from 'react-icons/ri';
+import { GoChevronLeft } from '@react-icons/all-files/go/GoChevronLeft';
+import { GrDocumentPdf } from '@react-icons/all-files/gr/GrDocumentPdf';
+import { RiFileHwpLine } from '@react-icons/all-files/ri/RiFileHwpLine';
 import ReactQuill from 'react-quill';
 import styled from 'styled-components';
 import { StFadeAni } from '../../pages/chat/style';

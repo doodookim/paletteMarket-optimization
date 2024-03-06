@@ -177,7 +177,7 @@ const Header = ({
           <St.HeaderWrapper>
             <St.HeaderSection>
               <St.Logo
-                src="/assets/paletteMarketLogo.svg"
+                src="/assets/paletteMarketLogo.webp"
                 alt="작업자들"
                 onClick={handleLogoClick}
               />

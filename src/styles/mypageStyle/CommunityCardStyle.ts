@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaComment, FaThumbsUp } from 'react-icons/fa';
+import { FaComment } from '@react-icons/all-files/fa/FaComment';
+import { FaThumbsUp } from '@react-icons/all-files/fa/FaThumbsUp';
 
 export const StPostContainer = styled.div`
   display: flex;

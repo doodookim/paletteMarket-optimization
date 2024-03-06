@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
-import { BiEdit } from 'react-icons/bi';
-import { IoIosClose } from 'react-icons/io';
-import { IoPeopleSharp } from 'react-icons/io5';
-import { IoPersonSharp } from 'react-icons/io5';
-import { BiWon } from 'react-icons/bi';
-import { LuPalette } from 'react-icons/lu';
-import { TbLogin, TbLogout } from 'react-icons/tb';
-import { BsChatDotsFill } from 'react-icons/bs';
+import { BiEdit } from '@react-icons/all-files/bi/BiEdit';
+import { IoIosClose } from '@react-icons/all-files/io/IoIosClose';
+import { IoPeopleSharp } from '@react-icons/all-files/io5/IoPeopleSharp';
+import { IoPersonSharp } from '@react-icons/all-files/io5/IoPersonSharp';
+import { BiWon } from '@react-icons/all-files/bi/BiWon';
+import { IoMdColorPalette } from '@react-icons/all-files/io/IoMdColorPalette';
+import { GrLogin } from '@react-icons/all-files/gr/GrLogin';
+import { GrLogout } from '@react-icons/all-files/gr/GrLogout';
+import { BsChatDotsFill } from '@react-icons/all-files/bs/BsChatDotsFill';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { supabase } from '../../../api/supabase/supabaseClient';
@@ -14,7 +15,6 @@ import {
   useAppDispatch,
   useAppSelector
 } from '../../../redux/reduxHooks/reduxBase';
-import * as St from '../../../styles/headerStyle/HeaderStyle';
 import {
   setSuccessLogin,
   setSuccessLogout
@@ -110,7 +110,7 @@ const Hamburger: React.FC<HamburgerMenuProps> = ({
 
       <NavToBoard>
         <NavToProducts to="/products" onClick={onClose}>
-          <LuPalette />
+          <IoMdColorPalette />
           <p>중고거래</p>
         </NavToProducts>
 
@@ -144,12 +144,12 @@ const Hamburger: React.FC<HamburgerMenuProps> = ({
         </NavToChatRoom>
         {isLogin ? (
           <Logout onClick={onClose}>
-            <TbLogout />
+            <GrLogin />
             <p onClick={handleLogOut}>로그아웃</p>
           </Logout>
         ) : (
           <Logout onClick={onClose}>
-            <TbLogin />
+            <GrLogout />
             <p onClick={handleNavigateToLogin}>로그인</p>
           </Logout>
         )}

@@ -1,6 +1,8 @@
-import { BsArrowReturnLeft, BsThreeDots } from 'react-icons/bs';
-import { FaComment, FaThumbsUp } from 'react-icons/fa';
-import { FaRegThumbsUp } from 'react-icons/fa6';
+import { BsArrowReturnLeft } from '@react-icons/all-files/bs/BsArrowReturnLeft';
+import { BsThreeDots } from '@react-icons/all-files/bs/BsThreeDots';
+import { FaComment } from '@react-icons/all-files/fa/FaComment';
+import { FaThumbsUp } from '@react-icons/all-files/fa/FaThumbsUp';
+import { FaRegThumbsUp } from '@react-icons/all-files/fa/FaRegThumbsUp';
 import styled from 'styled-components';
 import { FormProps } from '../../pages/community/api/model';
 

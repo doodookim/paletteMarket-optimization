@@ -1,4 +1,4 @@
-import { GoChevronLeft } from 'react-icons/go';
+import { GoChevronLeft } from '@react-icons/all-files/go/GoChevronLeft';
 import styled from 'styled-components';
 import { StFadeAni } from '../../../pages/productsDetail/style';
 

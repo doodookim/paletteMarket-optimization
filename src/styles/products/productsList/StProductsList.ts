@@ -1,6 +1,6 @@
-import { BiWon } from 'react-icons/bi';
+import { BiWon } from '@react-icons/all-files/bi/BiWon';
 import styled from 'styled-components';
-import { StFadeAni } from "../../../pages/productsDetail/style";
+import { StFadeAni } from '../../../pages/productsDetail/style';
 
 // ProductsList(page)
 export const EntireContainer = styled.div`
@@ -28,11 +28,10 @@ export const TitleContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0rem 0 2rem 0;
-  @media screen and (max-width: 768px) {  
+  @media screen and (max-width: 768px) {
     margin: 1.5rem 0 1rem 0;
   }
 `;
-
 
 export const Title = styled.h1`
   font-size: var(--fontSize-H3);
@@ -124,4 +123,4 @@ export const LastData = styled.div`
     margin: 3rem auto 0 auto;
     gap: 1rem;
   }
-`
+`;

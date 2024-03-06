@@ -1,4 +1,5 @@
-import { FaComment, FaThumbsUp } from 'react-icons/fa';
+import { FaComment } from '@react-icons/all-files/fa/FaComment';
+import { FaThumbsUp } from '@react-icons/all-files/fa/FaThumbsUp';
 import styled from 'styled-components';
 import { PageBtnProps, Postcolor } from '../../pages/community/api/model';
 export const Container = styled.ul`

@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, useState } from 'react';
-import { FaArrowRight } from 'react-icons/fa6';
+import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight';
 import { useQuery } from 'react-query';
 import { supabase } from '../../api/supabase/supabaseClient';
 import { fetchData } from '../../components/main/DataFetch';
@@ -122,7 +122,7 @@ const Home = () => {
               <source srcSet={bannerImgs[0].webp1} type="image/webp" />
               <img
                 style={{ objectFit: 'cover' }}
-                src="/assets/banner1.jpg"
+                src={bannerImgs[0].jpg1}
                 alt="메인배너사진"
               />
             </St.MainBannerpic>
@@ -130,13 +130,13 @@ const Home = () => {
               <St.BannerWrapper>
                 <St.ProductsBannerImage>
                   <source srcSet={bannerImgs[1].webp2} type="image/webp" />
-                  <img src="/assets/banner2.webp" alt="중고거래" />
+                  <img src={bannerImgs[1].jpg2} alt="중고거래" />
                 </St.ProductsBannerImage>
                 <St.ScrollButton href="#product">
                   <picture>
                     <source srcSet={bannerImgs[2].webp3} type="image/webp" />
                     <St.ButtonImage
-                      src="/assets/banner3.webp"
+                      src={bannerImgs[2].jpg3}
                       alt="중고거래버튼"
                     />
                   </picture>
@@ -145,13 +145,13 @@ const Home = () => {
               <St.BannerWrapper>
                 <St.CommunityBannerImage>
                   <source srcSet={bannerImgs[3].webp4} type="image/webp" />
-                  <img src="/assets/banner4.webp" alt="커뮤니티" />
+                  <img src={bannerImgs[3].jpg4} alt="커뮤니티" />
                 </St.CommunityBannerImage>
                 <St.ScrollButton href="#community">
                   <picture>
                     <source srcSet={bannerImgs[4].webp5} type="image/webp" />
                     <St.ButtonImage
-                      src="/assets/banner5.webp"
+                      src={bannerImgs[4].jpg5}
                       alt="커뮤니티버튼"
                     />
                   </picture>

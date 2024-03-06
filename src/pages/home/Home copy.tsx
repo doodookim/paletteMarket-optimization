@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { FaArrowRight } from 'react-icons/fa6';
+import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight';
 import { useQuery } from 'react-query';
 import { Link, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';

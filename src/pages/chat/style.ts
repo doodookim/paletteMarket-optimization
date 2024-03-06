@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from 'styled-components';
 import { RoomStyledProps } from '../../components/chat/types';
-import { IoIosArrowBack } from 'react-icons/io';
-import { FaPlus } from 'react-icons/fa';
+import { IoIosArrowBack } from '@react-icons/all-files/io/IoIosArrowBack';
+import { FaPlus } from '@react-icons/all-files/fa/FaPlus';
 
 export const StFadeAni = keyframes`
   from{

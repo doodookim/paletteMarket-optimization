@@ -1,4 +1,4 @@
-import { GoInfo } from 'react-icons/go';
+import { GoInfo } from '@react-icons/all-files/go/GoInfo';
 import styled from 'styled-components';
 
 export const WrapperStyle = styled.div`
@@ -70,7 +70,7 @@ export const MobileTextValidationWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1rem;
-  
+
   @media screen and (max-width: 768px) {
   }
 `;
@@ -271,8 +271,8 @@ export const AddressInputStyle = styled.input`
     padding-left: 1rem;
     font-size: var(--fontSize-H6);
     &::placeholder {
-    font-size: 1.2rem;
-  }
+      font-size: 1.2rem;
+    }
   }
 `;
 export const GapStyle = styled.div`
@@ -333,9 +333,9 @@ export const TextAreaStyle = styled.textarea`
     width: 100%;
     font-size: var(--fontSize-H6);
     &::placeholder {
-    color: var(--gray);
-    font-size: 1.2rem;
-  }
+      color: var(--gray);
+      font-size: 1.2rem;
+    }
   }
 `;
 export const CountWrapper = styled.div`
